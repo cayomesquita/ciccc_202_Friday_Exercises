@@ -36,7 +36,8 @@ public class Rectangle {
     }
 
     public void setColor(String color) {
-        this.color = (color == null || color.length() < 3 || color.length() > 20) ? "Blue" : color;
+        this.color = (color == null || color.length() < 3 || color.length() > 20 ||
+                Character.isLowerCase(color.charAt(0))) ? "Blue" : color;
     }
 
     void draw() {
