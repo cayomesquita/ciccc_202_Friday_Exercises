@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public class GettingTheLargestValue {
 
     private final static int ARRAY_LENGTH = 10;
-    public static final int LIMIT_RANDOM = 50;
+    public static final int LIMIT_RANDOM = 100;
 
     public static void main(String[] args) {
 
